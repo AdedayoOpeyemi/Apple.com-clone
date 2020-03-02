@@ -374,11 +374,11 @@ footer {
 
 footer div {
   width: 980px;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 footer div div {
-  float: left;
-  width: 50%;
   font-size: 10px;
   display: flex;
   align-items: center;
