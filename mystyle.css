@@ -93,7 +93,8 @@ background: linear-gradient(rgb(128, 128, 128), rgb(112, 112, 112) 50%, rgb(94, 
     width: 105.633px;
     display: flex;
     padding-top: auto;
-    padding-bottom: auto
+    padding-bottom: auto;
+    border-right: 1px solid grey;
 }
 
 .product-links li a {
@@ -101,7 +102,9 @@ background: linear-gradient(rgb(128, 128, 128), rgb(112, 112, 112) 50%, rgb(94, 
     height: 36px;
     text-decoration: none;
     color: white;
-    display: flex;    align-items: center;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
     
 }
 
