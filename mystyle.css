@@ -310,8 +310,15 @@ footer div div ul {
 footer div div ul li {
     float: left;
     padding: 3px;
-    border-right: 1px solid grey;
-    /* margin-right: 3px;
-} */
+    border-right: 1px solid grey; 
+}
 
+#usa_logo_container {
+    border-right: none;
+}
+
+#usa_logo {
+    width: 20px;
+    height: 20px;
+}
 
