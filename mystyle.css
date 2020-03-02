@@ -63,7 +63,8 @@ max-height: 1515px;
 
 nav {
     position: relative;
-display: block;
+display: flex;
+flex-direction: row;
 width: 980px;
 height: 36px;
 margin: 18px auto;
@@ -74,7 +75,17 @@ background: linear-gradient(rgb(128, 128, 128), rgb(112, 112, 112) 50%, rgb(94, 
 }
 
 .product-links {
-    width: 845px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin: 0 auto;
+    min-width: 845px;
+    width: 100%;
+    max-width: 1440px;
+    height: 36px;
+    text-align: center;
+    list-style: none outside;
+    padding: 0;
 }
 
 .product-links li {
@@ -90,12 +101,29 @@ background: linear-gradient(rgb(128, 128, 128), rgb(112, 112, 112) 50%, rgb(94, 
     height: 36px;
     text-decoration: none;
     color: white;
-    display: flex;
-    align-items: center;
-    
+    display: flex;    align-items: center;
     
 }
 
+.searchbar {
+    display: block;
+    text-align: center;
+    height: 100%;
+    background: linear-gradient(rgb(128, 128, 128), rgb(112, 112, 112) 50%, rgb(94, 94, 94) 51%, rgb(129, 129, 129));
+}
+
+form {
+    height: 36px;
+    width: 132px;
+}
+
+form input {
+    width: 120px;
+    height: 80%;
+    align-self: center;
+    margin: 3px;
+    background: linear-gradient(rgb(128, 128, 128), rgb(112, 112, 112) 50%, rgb(94, 94, 94) 51%, rgb(129, 129, 129));
+}
 .big-image {
     position: absolute;
 top: 0;
@@ -159,7 +187,7 @@ header h3 {
     height: 200px;
 }
 
-ul {
+.promo ul {
 
     position: relative;
 z-index: 1;
