@@ -43,3 +43,113 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+main {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 92px;
+left: 0;
+overflow: hidden;
+display: block;
+min-height: 800px;
+max-height: 1515px;
+
+}
+
+nav {
+    position: relative;
+display: block;
+width: 980px;
+height: 36px;
+margin: 18px auto;
+text-align: left;
+z-index: 9998;
+}
+
+.big-image {
+    position: absolute;
+top: 0;
+right: 0;
+bottom: 184px;
+left: 0;
+overflow: hidden;
+display: block;
+min-height: 600px;
+max-height: 1315px;
+
+}
+
+.billboard {
+
+    right: auto;
+    left: 50%;
+    margin-left: -720px;
+    width: 1440px;
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+    background-size: auto;
+    background-size: 1440px 1315px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    min-height: 600px;
+}
+
+.promo {
+    position: absolute;
+    z-index: 1;
+    bottom: -20px;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+}
+
+ul {
+
+    position: relative;
+z-index: 1;
+overflow: hidden;
+margin: 0 auto;
+min-width: 1024px;
+width: 100%;
+max-width: 1440px;
+height: 200px;
+text-align: center;
+list-style: none outside;
+padding: 0;
+
+}
+
+.promo1 {
+    background: url("images/promo_iphone5s.jpg") no-repeat;
+
+}
+
+.promo2 {
+    background: url("images/promo_iphone5c.jpg") no-repeat;
+
+}
+
+.promo3 {
+background: url("images/promo_30_years.jpg") no-repeat;
+}
+
+.promo4 {
+    background: url("images/promo_supplier_responsibility.jpg") no-repeat;
+
+}
+
+.promo ul li {
+    position: relative;
+    z-index: 1;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    width: 25%;
+    height: 200px;
+    padding: 0;
+    top: 0;
+
+}
+
+
