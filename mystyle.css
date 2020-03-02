@@ -44,6 +44,10 @@ table {
 	border-spacing: 0;
 }
 
+body {
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
 main {
 position: absolute;
 top: 0;
@@ -65,6 +69,8 @@ height: 36px;
 margin: 18px auto;
 text-align: left;
 z-index: 9998;
+top: 100px;
+background: linear-gradient(rgb(128, 128, 128), rgb(112, 112, 112) 50%, rgb(94, 94, 94) 51%, rgb(129, 129, 129));
 }
 
 .big-image {
@@ -93,6 +99,32 @@ max-height: 1315px;
     top: 0;
     bottom: 0;
     min-height: 600px;
+}
+
+header {
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+header h2 {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+header h3 {
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 20px;
 }
 
 .promo {
