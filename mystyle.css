@@ -73,6 +73,29 @@ top: 100px;
 background: linear-gradient(rgb(128, 128, 128), rgb(112, 112, 112) 50%, rgb(94, 94, 94) 51%, rgb(129, 129, 129));
 }
 
+.product-links {
+    width: 845px;
+}
+
+.product-links li {
+    float:left;
+    width: 105.633px;
+    display: flex;
+    padding-top: auto;
+    padding-bottom: auto
+}
+
+.product-links li a {
+    width: 105.633px;
+    height: 36px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
 .big-image {
     position: absolute;
 top: 0;
