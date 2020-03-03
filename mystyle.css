@@ -127,13 +127,10 @@ table {
 }
 
 .page-container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 600px 200px auto;
   justify-content: center;
-}
-
-* {
-  box-sizing: border-box;
+  width: 100%;
 }
 
 main {
@@ -143,10 +140,9 @@ main {
   align-items: center;
   color: white;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  background-size: cover;
   font-weight: 700;
   text-align: center;
-  height: 600px;
+  width: 100%;
 }
 
 main h1 {
@@ -166,16 +162,18 @@ main h3 {
 
 nav {
   background: linear-gradient(rgb(128, 128, 128), rgb(112, 112, 112) 50%, rgb(94, 94, 94) 51%, rgb(129, 129, 129));
-  margin: 100px;
-  width: 980px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
   height: 36px;
   display: grid;
-  grid-template-columns: 760px auto;
+  grid-template-columns: 70% 30%;
 }
 
 .product-links li {
   float: left;
-  width: 94px;
+  width: 12%;
   padding-top: auto;
   padding-bottom: auto;
   border-right: 1px solid grey;
@@ -187,7 +185,6 @@ nav {
 }
 
 .product-links li a {
-  width: 94px;
   height: 36px;
   text-decoration: none;
   color: white;
@@ -197,15 +194,15 @@ nav {
 }
 
 .searchbar {
-  height: 100%;
-  width: 200px;
+  height: 36px;
+  width: 80%;
   display: flex;
   align-items: center;
 }
 
 .searchbar form {
-  height: 19.5px;
-  width: 180px;
+  height: 80%;
+  width: 100%;
   display: flex;
 }
 
@@ -224,8 +221,8 @@ footer div {
 }
 
 input {
-  width: 130px;
-  height: 12.5px;
+  width: 100%;
+  height: 80%;
   margin: 0;
   padding: 0;
   background: linear-gradient(rgb(128, 128, 128), rgb(112, 112, 112) 50%, rgb(94, 94, 94) 51%, rgb(129, 129, 129));
@@ -250,29 +247,23 @@ input {
 .promo4 {
   float: left;
   width: 25%;
-  height: 100%;
-  max-height: 200px;
-  min-width: 200px;
+  height: 200px;
 }
 
 .promo1 {
   background: url("images/promo_iphone5s.jpg") no-repeat;
-  background-size: cover;
 }
 
 .promo2 {
   background: url("images/promo_iphone5c.jpg") no-repeat;
-  background-size: cover;
 }
 
 .promo3 {
   background: url("images/promo_30_years.jpg") no-repeat;
-  background-size: cover;
 }
 
 .promo4 {
   background: url("images/promo_supplier_responsibility.jpg") no-repeat;
-  background-size: cover;
 }
 
 footer {
@@ -296,7 +287,7 @@ footer {
 
 .footer-content li a {
   text-decoration: none;
-  color: #0cc;
+  color: #08c;
 }
 
 .footer-content {
