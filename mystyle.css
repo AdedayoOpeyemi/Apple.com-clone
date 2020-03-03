@@ -222,7 +222,7 @@ input {
   height: 12.5px;
   margin: 0;
   padding: 0;
-  background: linear-gradient(rgb(128, 128, 128), rgb(112, 112, 112) 50%, rgb(94, 94, 94) 51% rgb(129, 129, 129));
+  background: linear-gradient(rgb(128, 128, 128), rgb(112, 112, 112) 50%, rgb(94, 94, 94) 51%, rgb(129, 129, 129));
   border: none;
   color: white;
 }
