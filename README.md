@@ -26,8 +26,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/Adedayoopeyemi)
-- Twitter: [@twitterhandle](https://twitter.com/oyelesiopy)
+- Github: [Adedayoopeyemi](https://github.com/Adedayoopeyemi)
+- Twitter: [@Oyelesiopy](https://twitter.com/oyelesiopy)
 
 
 ## 🤝 Contributing
