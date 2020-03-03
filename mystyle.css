@@ -127,11 +127,14 @@ table {
 }
 
 .page-container {
-  display: grid;
-  grid-template-rows: 600px 200px auto;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
+* {
+  box-sizing: border-box;
+}
 main {
   background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
   display: flex;
@@ -139,8 +142,10 @@ main {
   align-items: center;
   color: white;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  background-size: cover;
   font-weight: 700;
   text-align: center;
+  height: 600px;
 }
 
 main h1 {
@@ -234,7 +239,7 @@ input {
 
 .promo {
   height: 200px;
-  width: 1440px;
+  width: 100%;
   margin: auto auto;
 }
 
@@ -244,27 +249,33 @@ input {
 .promo4 {
   float: left;
   width: 25%;
-  height: 200px;
+  height: 100%;
+  max-height: 200px;
+  min-width: 200px;
 }
 
 .promo1 {
   background: url("images/promo_iphone5s.jpg") no-repeat;
+  background-size: cover;
 }
 
 .promo2 {
   background: url("images/promo_iphone5c.jpg") no-repeat;
+  background-size: cover;
 }
 
 .promo3 {
   background: url("images/promo_30_years.jpg") no-repeat;
+  background-size: cover;
 }
 
 .promo4 {
   background: url("images/promo_supplier_responsibility.jpg") no-repeat;
+  background-size: cover;
 }
 
 footer {
-  width: 1440px;
+  width: 100%;
   display: flex;
   justify-content: center;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
