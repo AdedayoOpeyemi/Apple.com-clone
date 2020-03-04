@@ -1,41 +1,24 @@
-# Project Name
+# Apple.com Page Clone
 
-> One paragraph statement about the project.
+> This project consists of building a webpage using images as a background and adding gradients to elements. The goal is to make a clone of old an old version of the Apple website webpage.
 
 ![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 
+
+
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- HTML,
+- CSS
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+**Run the following command**
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+**git clone git@github.com:AdedayoOpeyemi/Apple.com-clone.git**
 
 
 
@@ -43,15 +26,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [Adedayoopeyemi](https://github.com/Adedayoopeyemi)
+- Twitter: [@Oyelesiopy](https://twitter.com/oyelesiopy)
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
